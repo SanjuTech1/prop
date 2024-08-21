@@ -10,7 +10,7 @@ const App = () => {
     <Router>
       <Routes>
         {/* Redirect root path to /env */}
-        <Route path="/" element={<Navigate to="/env" replace />} />
+   
         
         <Route path="/env" element={<EnvelopeAnimation />} />  
         <Route path="/proposal" element={<Proposal />} />
